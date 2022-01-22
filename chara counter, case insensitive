@@ -1,0 +1,3 @@
+name, letter = input(" Enter name & letter to find: ").split(",")
+
+print(name.strip().upper().count(letter.strip().upper()))
